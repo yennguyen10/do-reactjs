@@ -38,3 +38,40 @@ nav ul li {
 h1.title {
   color: red;
 }
+
+.toptitle {
+  text-align: center;
+}
+.post-item {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.post-item li {
+  width: calc(100%/3);
+  margin-bottom: 10px;
+}
+.post-item .post-title {
+  width: 400px;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.post-item .desc {
+  margin: 20px 0;
+  max-width: 400px;
+}
+.post-item a {
+  color: #000;
+  text-decoration: none;
+}
+.post-item a.more {
+  text-decoration: underline;
+}
+.post-item a.more:after {
+  content: '>';
+}
+.post-item a:hover {
+  text-decoration: underline;
+}
