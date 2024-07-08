@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Postlist from './PostList/postlist';
+import './styles.scss';
 
 export default function Bloglist() {
     let content;
