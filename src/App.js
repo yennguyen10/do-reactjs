@@ -7,6 +7,7 @@ import Demo3 from './components/Demo3';
 import TodoFeatures from './features/Todo';
 import Clock from './components/Clock';*/
 import Demo from './components/Demo';
+import Bloglist from './components/Post';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       
 
       <Demo/>  
+      <Bloglist/>
       {/*<Demo1 />
       <Demo2 />
       <Demo3 />
